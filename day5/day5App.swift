@@ -12,6 +12,7 @@ struct day5App: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environmentObject(Drawing())
         }
     }
 }
