@@ -13,6 +13,11 @@
 		45BBE7F3276F7B50002329C3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45BBE7F2276F7B50002329C3 /* Preview Assets.xcassets */; };
 		45FCF41127709BC300E1822E /* input-5a.txt in Resources */ = {isa = PBXBuildFile; fileRef = 45FCF40F27709BC300E1822E /* input-5a.txt */; };
 		45FCF41227709BC300E1822E /* input-5.txt in Resources */ = {isa = PBXBuildFile; fileRef = 45FCF41027709BC300E1822E /* input-5.txt */; };
+		45FCF4142770BD1000E1822E /* Line.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45FCF4132770BD1000E1822E /* Line.swift */; };
+		45FCF4162770BD2C00E1822E /* Drawing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45FCF4152770BD2C00E1822E /* Drawing.swift */; };
+		45FCF4182770BD4000E1822E /* Point.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45FCF4172770BD4000E1822E /* Point.swift */; };
+		45FCF41A2770BDBA00E1822E /* Convenience functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45FCF4192770BDBA00E1822E /* Convenience functions.swift */; };
+		45FCF41C2770BDDD00E1822E /* String+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45FCF41B2770BDDD00E1822E /* String+Ext.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +28,11 @@
 		45BBE7F2276F7B50002329C3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		45FCF40F27709BC300E1822E /* input-5a.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "input-5a.txt"; sourceTree = "<group>"; };
 		45FCF41027709BC300E1822E /* input-5.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "input-5.txt"; sourceTree = "<group>"; };
+		45FCF4132770BD1000E1822E /* Line.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Line.swift; sourceTree = "<group>"; };
+		45FCF4152770BD2C00E1822E /* Drawing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Drawing.swift; sourceTree = "<group>"; };
+		45FCF4172770BD4000E1822E /* Point.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Point.swift; sourceTree = "<group>"; };
+		45FCF4192770BDBA00E1822E /* Convenience functions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Convenience functions.swift"; sourceTree = "<group>"; };
+		45FCF41B2770BDDD00E1822E /* String+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Ext.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +67,11 @@
 			children = (
 				45BBE7EB276F7B4E002329C3 /* day5App.swift */,
 				45BBE7ED276F7B4E002329C3 /* ContentView.swift */,
+				45FCF41B2770BDDD00E1822E /* String+Ext.swift */,
+				45FCF4152770BD2C00E1822E /* Drawing.swift */,
+				45FCF4192770BDBA00E1822E /* Convenience functions.swift */,
+				45FCF4172770BD4000E1822E /* Point.swift */,
+				45FCF4132770BD1000E1822E /* Line.swift */,
 				45FCF41027709BC300E1822E /* input-5.txt */,
 				45FCF40F27709BC300E1822E /* input-5a.txt */,
 				45BBE7EF276F7B50002329C3 /* Assets.xcassets */,
@@ -145,6 +160,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				45FCF4162770BD2C00E1822E /* Drawing.swift in Sources */,
+				45FCF41C2770BDDD00E1822E /* String+Ext.swift in Sources */,
+				45FCF4182770BD4000E1822E /* Point.swift in Sources */,
+				45FCF41A2770BDBA00E1822E /* Convenience functions.swift in Sources */,
+				45FCF4142770BD1000E1822E /* Line.swift in Sources */,
 				45BBE7EE276F7B4E002329C3 /* ContentView.swift in Sources */,
 				45BBE7EC276F7B4E002329C3 /* day5App.swift in Sources */,
 			);
