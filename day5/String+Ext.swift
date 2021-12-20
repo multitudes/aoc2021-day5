@@ -8,6 +8,8 @@
 import Foundation
 
 /// as a little help to extrapolate the input data
+/// This did help https://projects.verou.me/regexplained/
+///
 extension String {
     func getTrimmedCapturedGroupsFrom(regexPattern: String)-> [String]? {
         let text = self
